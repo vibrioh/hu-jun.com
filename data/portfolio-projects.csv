@@ -1,19 +1,31 @@
 project_name,project_url,project_intro,project_tools,project_contributions,we_done,project_id,why_now
-project 1,http://bit.ly/udn-228,"The ?€?228 massacre?€? was a uprise that happened in 1947, when KMT fled to Taiwan from China, ?€?the mother country.?€? Original residents in Taiwan were disappointed of the mother country, and consequently, there were lots of conflicts between the citizens and the police. On the night of February 27th, a 40-year-old widow was hit by an official of the Tobacco Monopoly Bureau. The crowds surrounded the officials, and one of the agents fired a gun into the crowd and accidentally killed a bystander. We visualized the reparation data provided by the The Memorial Foundation of 228, and tried to tell this story by mapping data back to history events.",,"| Worked as project manager and engineer in this project
-| Design and implement the visual atmosphere and graphics
-| Wrote the story by looking into the reparation data
-| Built mobile version
-| Reached 100,000 visitors traffic, and high Facebook engagement rate
-",,prj_228_udn,"Several weeks before the anniversary of the ?€?228 Massacre?€?, I told my editor that I want to do a story about the incident, and I started to look for data. We settled down with this idea after confirming with the Memorial Foundation of 228 that they could provide us with the reparation data. Our editor, Viola Tsai, lead our project team to a meeting with the foundation, deciding how the story is going to look like and what kind of data format can they provide.
+Real Estate Management,http://bit.ly/2jh9Al9,"Property management database is a web-based real estate database that provides information and service for homebuyers, home sellers and real estate agents to exchange property information more efficiently among them. This database stores information about property details, building neighborhood, school, transportation, lists of price, etc. related to property and agents who holds the source of property. 
 
-Studying the calendar is always important for doing news. Also, due to the annual fierce debate online about this past incident, we believe readers would be interested in this story. "
-"Bingo! Campaign Cash
-Rolls in with Bingo,
-in Michigan",http://bit.ly/viz-bingo,"In a two day hackathon held by the Stats club in Columbia University and Columbia Journalism School, we dug into the FEC data, and found an interesting donor name called Bingo Player.",,"| Explore data with R
+A homebuyer could utilize the database to look for their likely interesting home by zip code, address, price, property type (condo, house, apartment), school district and other specific condition. Real estate agents can widely publicize their listings and get contacted by potential homebuyers. Homeowners can hire the good performance agents depending on their past trading record.
+",project_tools,"| HTML5/CSS3/JavaScript
+| Python/Flask
+| SQLAlchemy/PostgreSQL
+| Google Cloud Platform
+| Realistic Data Retrieval ",Been selected as demo presentation in class (6/150).,prj1_nyc_rem,"
+A property has a unique property ID, address, a zip code, the number of bedroom and bathroom, the area of squire feet and a built date. One property lies in one block. The property has a list of price. The property is sold by an agent and belonged one owner. 
+
+Sale state is the state to describe if the property is on sale right now. Sale state still shows what is the start sale date and end sale date. 
+
+The price is composed of listing price, maintenance fee and tax deduction. Each property has an evaluated price and a last time sold price. 
+
+Block is the district where property belongs. Each block has a unique district ID. Some block locates at water front division. The block has its commute system such as bus and subway. 
+
+School district has its unique district number. The public school including primary, middle and high school have scores rated by education system. 
+
+Sell agent has a unique register ID, first name, last name and telephone. 
+
+Owner has a unique SSN number, first name and last name. 
+"
+Arrhythmia Visualization,http://bit.ly/2wRjr6z,"In a two day hackathon held by the Stats club in Columbia University and Columbia Journalism School, we dug into the FEC data, and found an interesting donor name called Bingo Player.",,"| Explore data with R
 | Visualize data with d3.js
 | Design and Build the project website
 | Use Photoshop to optimize R output graph
-| Use Python to minimize tigerline zip_code map data",,prj_bingo_cjs,
+| Use Python to minimize tigerline zip_code map data",,prj2_arrh_vlz,
 "FATAL TRAFFIC ACCIDENT IN TAIWAN
 ",http://bit.ly/fatal_traffic,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et dui vulputate, tincidunt magna id, dapibus velit. Cras tellus justo, accumsan non iaculis non, tincidunt eu sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla sapien eros, pharetra eget cursus ut, pulvinar sed massa. Fusce eget felis velit. Donec nibh urna, bibendum ut euismod nec, maximus ut dui. Proin suscipit libero in diam semper interdum quis in lacus. Nulla lacus turpis, cursus et pharetra at, commodo id enim. Integer ultrices, mauris ac dapibus commodo, ligula enim tempor ligula, eget bibendum justo lorem nec est. In commodo libero non tellus euismod, eget pulvinar lorem dictum. Etiam porttitor mi urna, eget maximus urna rutrum eget. Nunc pellentesque faucibus pellentesque. Maecenas rutrum pharetra purus, eu sodales metus pellentesque nec. Vestibulum cursus quam et viverra ornare. Duis malesuada ultrices lacus vel lobortis. Fusce ullamcorper est vitae tincidunt tincidunt.",,"| Built customized interactive chart with d3.js
 | Showed clustered data on a zoomable Leaflet map

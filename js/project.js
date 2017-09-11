@@ -4,7 +4,7 @@ var ProjectIntro = React.createClass({
 	render: function(){
 
 		return (<div>
-					<h1 className="left-orange">Project Introduction</h1>
+					<h1 className="left-orange">Introduction</h1>
 					<div className="para">{this.props.intro}</div>
 				</div>
 				);
@@ -65,7 +65,7 @@ var GoToAppButton = React.createClass({
 			fontFamily: "'Century Gothic', CenturyGothic, AppleGothic, sans-serif"
 		};
 
-		return (<a type="button" className="btn btn-danger" href={this.props.url} target="_blank" style={buttonStyle}>GO TO APP</a>);
+		return (<a type="button" className="btn btn-danger" href={this.props.url} target="_blank" style={buttonStyle}>LEARN MORE</a>);
 	}
 });
 
@@ -73,7 +73,7 @@ var WhyNow = React.createClass({
 
 	render: function(){
 		return (<div>
-					<h1 className="left-orange">Why Now?</h1>
+					<h1 className="left-orange">Implementation</h1>
 					<div className="para">{this.props.whynow}</div>
 				</div>)
 	}
@@ -104,7 +104,7 @@ $(document).ready(function(){
 	$("#project-name-wrap").text(projectContent["project_name"]);
 
 	// set project cover photo
-	$("#header-bar").css({"backgroundImage": 'url("../img/prj-cover/' + currentBrowsingProjectId + '.jpg")'});
+	$("#header-bar").css({"backgroundImage": 'url("../img/prj-cover/' + currentBrowsingProjectId + '.png")'});
 
 	// remove empty cell
 	var contributions = projectContent["project_contributions"].split("|");

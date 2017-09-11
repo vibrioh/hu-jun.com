@@ -87,7 +87,7 @@ var ProjectCell = React.createClass({
 		// console.log(institute);
 
 		var prj_img_style = {
-			height: 360,
+			height: 290,
 			backgroundImage: "url(img/prj-cell/" + project_info["project_id"] + ".png" + ")",
 			backgroundSize: "cover",
 			backgroundPosition: "center"
@@ -101,14 +101,14 @@ var ProjectCell = React.createClass({
 
 		var proj_name_wrap_style = {
 			marginTop: 5,
-			fontSize: 16,
+			fontSize: 20,
 			textAlign: "center",
 			fontFamily: "'Century Gothic', CenturyGothic, AppleGothic, sans-serif"
 		};
 
 		var project_intro = project_info["project_intro"];
-		if (project_intro.length > 180) {
-			project_intro = project_info["project_intro"].slice(0, 180) + "..."
+		if (project_intro.length > 230) {
+			project_intro = project_info["project_intro"].slice(0, 230) + "..."
 		};
 
 		// is it is a story that I wrote, we turn the introduction string into a DOM element
@@ -193,19 +193,19 @@ d3.csv("./data/portfolio-projects.csv", function(prj_data){
 });
 
 
-d3.csv("./data/stories.csv", function(story_data){
-
-	// console.log(story_data);
-
-	localStorage.setItem("stories-data", JSON.stringify(story_data));
-
-	ReactDOM.render(
-		<ProjectList data={story_data} />,
-		document.getElementById("stories-prj-wrap")
-	);
-
-
-})
+// d3.csv("./data/stories.csv", function(story_data){
+//
+// 	// console.log(story_data);
+//
+// 	localStorage.setItem("stories-data", JSON.stringify(story_data));
+//
+// 	ReactDOM.render(
+// 		<ProjectList data={story_data} />,
+// 		document.getElementById("stories-prj-wrap")
+// 	);
+//
+//
+// })
 
 
 /*for (var i = 0; i < 9; i++) {
