@@ -107,8 +107,8 @@ var ProjectCell = React.createClass({
 		};
 
 		var project_intro = project_info["project_intro"];
-		if (project_intro.length > 230) {
-			project_intro = project_info["project_intro"].slice(0, 230) + "..."
+		if (project_intro.length > 180) {
+			project_intro = project_info["project_intro"].slice(0, 180) + "..."
 		};
 
 		// is it is a story that I wrote, we turn the introduction string into a DOM element

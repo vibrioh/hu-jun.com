@@ -4,10 +4,8 @@
     <list default="true" id="1e833176-5c74-423c-8768-1a0b503c9291" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/projectlist.css" afterPath="$PROJECT_DIR$/css/projectlist.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/portfolio-projects.csv" afterPath="$PROJECT_DIR$/data/portfolio-projects.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/project.js" afterPath="$PROJECT_DIR$/js/project.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/projectlist.js" afterPath="$PROJECT_DIR$/js/projectlist.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.html" afterPath="$PROJECT_DIR$/project.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="399" column="21" lean-forward="true" selection-start-line="399" selection-start-column="21" selection-end-line="399" selection-end-column="21" />
+            <state relative-caret-position="646">
+              <caret line="160" column="17" lean-forward="true" selection-start-line="160" selection-start-column="17" selection-end-line="160" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -34,8 +32,8 @@
       <file leaf-file-name="projectlist.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/projectlist.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="101" column="21" lean-forward="false" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+            <state relative-caret-position="948">
+              <caret line="103" column="24" lean-forward="false" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -71,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projectlist.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="projectlist.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/projectlist.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="551">
-              <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -86,6 +84,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="798">
               <caret line="156" column="16" lean-forward="false" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-116">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/header.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -102,9 +120,9 @@
       <find>go-to</find>
       <find>project inf</find>
       <find>prj-cell</find>
-      <find>methods</find>
       <find>method</find>
       <find>go to</find>
+      <find>methods</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -118,12 +136,12 @@
         <option value="$PROJECT_DIR$/js/footer.js" />
         <option value="$PROJECT_DIR$/scss/styles.scss" />
         <option value="$PROJECT_DIR$/css/header.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/project.css" />
-        <option value="$PROJECT_DIR$/css/projectlist.css" />
-        <option value="$PROJECT_DIR$/js/projectlist.js" />
         <option value="$PROJECT_DIR$/js/project.js" />
         <option value="$PROJECT_DIR$/project.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/projectlist.js" />
+        <option value="$PROJECT_DIR$/css/projectlist.css" />
       </list>
     </option>
   </component>
@@ -291,7 +309,7 @@
       <workItem from="1504987347612" duration="2519000" />
       <workItem from="1505014235407" duration="715000" />
       <workItem from="1505069488623" duration="13460000" />
-      <workItem from="1505091233365" duration="18882000" />
+      <workItem from="1505091233365" duration="22719000" />
     </task>
     <task id="LOCAL-00001" summary="fix some parts">
       <created>1505102329132</created>
@@ -300,11 +318,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505102329132</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="only need to rich data">
+      <created>1505112683608</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505112683608</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50662000" />
+    <option name="totallyTimeSpent" value="54499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-565" width="1216" height="1896" extended-state="6" />
@@ -338,7 +363,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix some parts" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix some parts" />
+    <MESSAGE value="only need to rich data" />
+    <option name="LAST_COMMIT_MESSAGE" value="only need to rich data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -383,7 +409,6 @@
     <entry file="file://$PROJECT_DIR$/js/scripts.min.js" />
     <entry file="file://$PROJECT_DIR$/images/lead-bg.jpg" />
     <entry file="file://$PROJECT_DIR$/images/project.jpg" />
-    <entry file="file://$PROJECT_DIR$/css/styles.css" />
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -426,14 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/project.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
@@ -450,18 +467,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/projectlist.css">
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        <state relative-caret-position="-116">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/projectlist.js">
+    <entry file="file://$PROJECT_DIR$/css/header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="101" column="21" lean-forward="false" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+        <state relative-caret-position="646">
+          <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -484,8 +501,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="399" column="21" lean-forward="true" selection-start-line="399" selection-start-column="21" selection-end-line="399" selection-end-column="21" />
+        <state relative-caret-position="646">
+          <caret line="160" column="17" lean-forward="true" selection-start-line="160" selection-start-column="17" selection-end-line="160" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/projectlist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="948">
+          <caret line="103" column="24" lean-forward="false" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/projectlist.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding />
         </state>
       </provider>
