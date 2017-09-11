@@ -1,0 +1,29 @@
+.prj-frame{
+	padding: 10px 12px 18px 12px;
+    /*border: black;*/
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+}
+
+.prj-img-over{
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,0.85);
+	padding: 8px 15px 0px 15px;
+    text-align: justify;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+
+.prj-img-over:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+.project-name{
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}

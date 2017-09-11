@@ -1,0 +1,98 @@
+project_name,project_url,project_intro,project_tools,project_contributions,we_done,project_id,why_now
+THE “228 MASSACRE”,http://bit.ly/udn-228,"The “228 massacre” was a uprise that happened in 1947, when KMT fled to Taiwan from China, “the mother country.” Original residents in Taiwan were disappointed of the mother country, and consequently, there were lots of conflicts between the citizens and the police. On the night of February 27th, a 40-year-old widow was hit by an official of the Tobacco Monopoly Bureau. The crowds surrounded the officials, and one of the agents fired a gun into the crowd and accidentally killed a bystander. We visualized the reparation data provided by the The Memorial Foundation of 228, and tried to tell this story by mapping data back to history events.",,"| Worked as project manager and engineer in this project
+| Design and implement the visual atmosphere and graphics
+| Wrote the story by looking into the reparation data
+| Built mobile version
+| Reached 100,000 visitors traffic, and high Facebook engagement rate
+",,prj_228_udn,"Several weeks before the anniversary of the “228 Massacre”, I told my editor that I want to do a story about the incident, and I started to look for data. We settled down with this idea after confirming with the Memorial Foundation of 228 that they could provide us with the reparation data. Our editor, Viola Tsai, lead our project team to a meeting with the foundation, deciding how the story is going to look like and what kind of data format can they provide.
+
+Studying the calendar is always important for doing news. Also, due to the annual fierce debate online about this past incident, we believe readers would be interested in this story. "
+"Bingo! Campaign Cash
+Rolls in with Bingo,
+in Michigan",http://bit.ly/viz-bingo,"In a two day hackathon held by the Stats club in Columbia University and Columbia Journalism School, we dug into the FEC data, and found an interesting donor name called Bingo Player.",,"| Explore data with R
+| Visualize data with d3.js
+| Design and Build the project website
+| Use Photoshop to optimize R output graph
+| Use Python to minimize tigerline zip_code map data",,prj_bingo_cjs,
+"FATAL TRAFFIC ACCIDENT IN TAIWAN
+",http://bit.ly/fatal_traffic,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et dui vulputate, tincidunt magna id, dapibus velit. Cras tellus justo, accumsan non iaculis non, tincidunt eu sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla sapien eros, pharetra eget cursus ut, pulvinar sed massa. Fusce eget felis velit. Donec nibh urna, bibendum ut euismod nec, maximus ut dui. Proin suscipit libero in diam semper interdum quis in lacus. Nulla lacus turpis, cursus et pharetra at, commodo id enim. Integer ultrices, mauris ac dapibus commodo, ligula enim tempor ligula, eget bibendum justo lorem nec est. In commodo libero non tellus euismod, eget pulvinar lorem dictum. Etiam porttitor mi urna, eget maximus urna rutrum eget. Nunc pellentesque faucibus pellentesque. Maecenas rutrum pharetra purus, eu sodales metus pellentesque nec. Vestibulum cursus quam et viverra ornare. Duis malesuada ultrices lacus vel lobortis. Fusce ullamcorper est vitae tincidunt tincidunt.",,"| Built customized interactive chart with d3.js
+| Showed clustered data on a zoomable Leaflet map
+| Built a tool to geolocate the complicated address format in Taiwan with Google Map API. 
+(Addresses in the data are often noted as “Highway No.14, 70kilometers and 500 meters”, which is difficult to locate compared to latitude and longitude.) By Cutting the address into short pieces, we can geolocate an approximate location via Google geolocate api. The tool I built also provides an auxiliary function that draws a circle with a user defined radius, which helps to locate the precise address. This tool saved the reporter a lot of time.
+| Raised debate about the safety issues of riding scooters in the Facebook comments plug-in
+| Cooperated with local reporters who have connections to police officers. By providing numbers we found in the data, they were able to make direct inquiries and give us responses about the phenomenon we found, also giving us a new perspective to dig into.
+| Cooperate with Department of Transportation of Taiwan to promote road safety, which is the first time to make revenue with data project
+","|Showed where the 1,770 fatal traffic accidents took place on a map.
+|Showed the percentage of fatal accident for different vehicles.
+|Showed the distribution of fatal accident in each county.
+|Discussed the different definition of A1, A2 fatal traffic accident data of Taiwan compared to various countries in the world. 
+|Criticized the out-of-date geolocation format of the National Police Agency.
+|Raised debate about the safety issues of riding scooters in the Facebook comments plug-in at the bottom of the page.
+|Cooperated with Department of Transportation of Taiwan to promote road safety. Became the first data project to make revenue.",prj_traffic_udn,"The Department Of Transportation in Taiwan publicizes traffic accident data every month, but none of the medias in Taiwan tried to do a data-driven story with that large set of data. Compared to various project abroad, our medias don’t put much strength on data in traffic stories. We believe the main difficulty is the format of data. We wanted to make a story that would give pressure to the National Police Agency to reform the way they take down the traffic accident location."
+CITIBIKE IN BEDSTUY AND FUTURE PLANS,http://bit.ly/wang_citibike,A Citibike story developed in the Reporting class in Columbia University. Evaluated the goal of reaching a larger body of riders in Boroughs other than Manhattan.,,"| Reported on Citibike beat, went to two Community Board meetings, and talked to 50+ bike riders
+| Explore Citibike data with Python
+| Visualize bike routes, subway stations and Citibike stations on map
+| Wrote story about Citibike expansion
+",,prj_citibike_cjs,"After the first phase expansion of Citi Bike into Brooklyn and Queens for two month, I believe it is time to assess whether they met the goal they set. Before the expansion, Citi Bike claimed that one of the reasons to go into these neighborhoods is to diverse the riders, and provide convenient service for low-income family. "
+"VISUALIZATION OF A FAMOUS LYRICIST – LINXI
+","http://bit.ly/udn_linxi
+","Lin Xi is one of the most productive lyricists in Eastern Asia, who had written 3365 songs as of June 26. We launched this project before the coming Golden Melody Awards, the Grammy Awards of Taiwan, and brought discussion about Lin Xi.
+",,"| Extracted data from wiki (https://zh.wikipedia.org/wiki/%E6%9E%97%E5%A4%95) using a Python Library, BeautifulSoup.
+| Used Highchart.js to speed up the development process
+| Built a marquee interface with d3.js, showing the songs name.
+","|Showed a timeline mapping his productivity.
+|Counted and showed the most cooperated singers in two charts.
+|Analyzed the length of all the songs’ name.
+|Showed another timeline indicating when he got nominated, and when he won the prize.
+|Embedded Youtube links of his definitive works.",prj_linxi_udn,"We launched this project before the coming Golden Melody Awards. The  Golden Melody Awards is like the Grammy Awards of Taiwan, and it attracts 1.5 million viewers every year during the performance. By writing a data-driven story about one of the candidates, we believe we can bring discussions about Lin Xi. "
+"HOW DID MEDIAS REPORT ON RANDOM STABBING?
+",http://bit.ly/random_stab,"I have always been mad about how medias in Taiwan lead the public opinion toward the extreme of populism. I believe the terms and the images they use, are the ones to blame. This story not only raised a lot of discussion among readers, but also made a lot of media professionals defend their stance of producing news.
+",,"| Extracted articles from six different media companies in one day.
+| Did word counts of specific sensational words such as cold-blooded or hannibalism with Sublime Text (sound simple, but efficient!)
+| Took photos of the four largest newspapers in Taiwan, and compare their headlines.
+| Updated the data while the news are still talking about this killer
+| Opensourced the data we extracted
+| Wrote a short article explaining our methodology
+",,prj_randomstab_udn,"I have always been mad about how medias in Taiwan lead the public opinion toward the extreme of populism. I believe the terms and the images they use, are the ones to blame. The social atmosphere at that time advocates the reclamation of media integrity, but no one had ever pointed out precisely how atrocious a media was with a firm number. That was when I think we should start moving our muscles, and use data to tell the story.
+
+Despite whether ourselves, as a media, could judge media is a problem that should be discussed, we still pursued and tried to indicate facts only based on numbers, and finished the story in two days. (We do know that number itself is still tricky, and do not guarantee absolute objectivity) This coverage not only raised a lot of discussion among readers, but also made a lot of media professionals defend their stance of producing news."
+THE WELLNESS OF EACH COUNTY IN TAIWAN,http://bit.ly/udn_county_index,"Visualized data of wellness index of each county in Taiwan after the local mayor election, trying to bring out the context that which mayor is having a lot of trouble in their future turn of service.",,"| Implemented sort animation with d3.js
+| Built the interactive website with jQuery
+| Debugged compatible problems on IE and Safari browsers
+| Had a debate with designer and project manager of what color better represents the average of Taiwan, and which color stands for highlighted objects. 
+| Maintain multiple tooltip in the same view, and update data while user hover into different bars. Hide the tooltips while being scrolled out of view.
+","|Showed an interface including a map that allows people to compare health, economic, political and demographical indices of different counties in Taiwan.
+|Showed definition of each index.",prj_county_udn,
+2014 TAIWAN CANCER DATA,http://bit.ly/udn_cancer,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et dui vulputate, tincidunt magna id, dapibus velit. Cras tellus justo, accumsan non iaculis non, tincidunt eu sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla sapien eros, pharetra eget cursus ut, pulvinar sed massa. Fusce eget felis velit. Donec nibh urna, bibendum ut euismod nec, maximus ut dui. Proin suscipit libero in diam semper interdum quis in lacus. Nulla lacus turpis, cursus et pharetra at, commodo id enim. Integer ultrices, mauris ac dapibus commodo, ligula enim tempor ligula, eget bibendum justo lorem nec est. In commodo libero non tellus euismod, eget pulvinar lorem dictum. Etiam porttitor mi urna, eget maximus urna rutrum eget. Nunc pellentesque faucibus pellentesque. Maecenas rutrum pharetra purus, eu sodales metus pellentesque nec. Vestibulum cursus quam et viverra ornare. Duis malesuada ultrices lacus vel lobortis. Fusce ullamcorper est vitae tincidunt tincidunt.",,"| Visualized data with react.js (I felt it’s the same concept with d3.js)
+| Debated on the color schema and color range definition with designer
+| Used iFrame to integrate animations that could be done simply with Adobe Edge, and speed up the project
+","|Showed a cancer clock animation that tells how many people get cancer every year in Taiwan.
+|Showed a line chart plotting the occurrence rate for different cancer.
+|Showed a gradient grid chart that implies: which kind of cancers are more severe, and where they occur the more often.",prj_cancer_udn,
+"HOW WAS THE BOX OFFICE OF MOVIES IN 2014?
+",http://bit.ly/udn_movie,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et dui vulputate, tincidunt magna id, dapibus velit. Cras tellus justo, accumsan non iaculis non, tincidunt eu sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla sapien eros, pharetra eget cursus ut, pulvinar sed massa. Fusce eget felis velit. Donec nibh urna, bibendum ut euismod nec, maximus ut dui. Proin suscipit libero in diam semper interdum quis in lacus. Nulla lacus turpis, cursus et pharetra at, commodo id enim. Integer ultrices, mauris ac dapibus commodo, ligula enim tempor ligula, eget bibendum justo lorem nec est. In commodo libero non tellus euismod, eget pulvinar lorem dictum. Etiam porttitor mi urna, eget maximus urna rutrum eget. Nunc pellentesque faucibus pellentesque. Maecenas rutrum pharetra purus, eu sodales metus pellentesque nec. Vestibulum cursus quam et viverra ornare. Duis malesuada ultrices lacus vel lobortis. Fusce ullamcorper est vitae tincidunt tincidunt.",,"| Extracted data from a movie review website with Scrapy library
+| Designed the main line chart with designer and project manager
+| Implemented the line chart with d3.js
+","|Plotted a line chart of box office against time of most of the movies in Taiwan in 2015.
+|Categorize all movies into 10 groups
+|Compared the total box office of the top ten best sellers in 2014.
+|Listed ten movies in 2014 with the least box office
+|Analyze how The Oscars ceremony affected the box office.
+|Analyze movies that opened relatively week but increased rapidly in the second week.",prj_boxioffice_udn,
+POLITICIANS AND THEIR FANS PAGES,http://bit.ly/udn_politician,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et dui vulputate, tincidunt magna id, dapibus velit. Cras tellus justo, accumsan non iaculis non, tincidunt eu sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla sapien eros, pharetra eget cursus ut, pulvinar sed massa. Fusce eget felis velit. Donec nibh urna, bibendum ut euismod nec, maximus ut dui. Proin suscipit libero in diam semper interdum quis in lacus. Nulla lacus turpis, cursus et pharetra at, commodo id enim. Integer ultrices, mauris ac dapibus commodo, ligula enim tempor ligula, eget bibendum justo lorem nec est. In commodo libero non tellus euismod, eget pulvinar lorem dictum. Etiam porttitor mi urna, eget maximus urna rutrum eget. Nunc pellentesque faucibus pellentesque. Maecenas rutrum pharetra purus, eu sodales metus pellentesque nec. Vestibulum cursus quam et viverra ornare. Duis malesuada ultrices lacus vel lobortis. Fusce ullamcorper est vitae tincidunt tincidunt.",,"| Used Facebook api to get comments, likes, subscribers and shares counts data of a fans page
+| Wrote a short Python script that traces all the way back to the date of the first post (Since Facebook doesn’t provide the establish data of a fans page)
+| Used Parse database to save data
+| Designed how the website load large amount of text from Facebook Api, instead of saving the data, we load it in an asynchronous manner 
+| Draw scatter plot and bar charts equipped with filter, sort and search functions with d3.js library
+| Minimized profile pictures of politicians to optimize loading speed
+| Implemented the number addition animation when the section is scrolled into view
+","|Showed a scatter plot that users can play with the index on x and y-axis. X-axis includes date of fans page establishment,  party, age, gender and position. Y-axis includes numbers of fans, engagement rate, avg. likes, avg. shares and avg. comments and number of posts on the fans page.
+|Showed a ranking table that users can also sort politicians with the indices listed in bullet point one.
+|Provided deeper insight for politicians with top-ten fans count with a red and blue bar chart. Our reporter also interviewed how their campaign team ran the fans page.
+|Embedded the most-liked post of each top-ten politician.",prj_politicianfb_udn,"We hoped that we can build a tool that observes how each politicians post and how Facebook users engage with them. We believed that the tool will be useful every once in a while when a new election comes.
+
+"
+"THE DISTRIBUTION OF FOREIGN SPOUSE IN TAIWAN
+",http://bit.ly/ntu_dj,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et dui vulputate, tincidunt magna id, dapibus velit. Cras tellus justo, accumsan non iaculis non, tincidunt eu sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla sapien eros, pharetra eget cursus ut, pulvinar sed massa. Fusce eget felis velit. Donec nibh urna, bibendum ut euismod nec, maximus ut dui. Proin suscipit libero in diam semper interdum quis in lacus. Nulla lacus turpis, cursus et pharetra at, commodo id enim. Integer ultrices, mauris ac dapibus commodo, ligula enim tempor ligula, eget bibendum justo lorem nec est. In commodo libero non tellus euismod, eget pulvinar lorem dictum. Etiam porttitor mi urna, eget maximus urna rutrum eget. Nunc pellentesque faucibus pellentesque. Maecenas rutrum pharetra purus, eu sodales metus pellentesque nec. Vestibulum cursus quam et viverra ornare. Duis malesuada ultrices lacus vel lobortis. Fusce ullamcorper est vitae tincidunt tincidunt.",,"| Built the interactive user interface with buttons and layout
+| Modified Highcharts.js to achieve scroll and update effect (last chart in the project)
+",,prj_foreignspouse_ntu,

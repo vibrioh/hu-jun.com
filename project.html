@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/project.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+
+
+	<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="js/d3.js"></script>
+	<script type="text/javascript" src="js/react.js"></script>
+	<script type="text/javascript" src="js/react-dom.js"></script>
+	<script type="text/javascript" src="js/browser.min.js"></script>
+	<script type="text/javascript" src="js/react-with-addons.js"></script>
+
+	<script type="text/javascript">
+        var projectId = window.location.search.substring(1).split("=")[1];
+
+        function getProjectId(){
+            return projectId;
+        }
+
+	</script>
+	<script type="text/babel" src="js/project.js"></script>
+
+
+	<title>Wang portfolio</title>
+	<meta property="og:url"           content="http://www.ca-wang.com" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="Chi-An Wang's Portfolio" />
+	<meta property="og:description"   content="Reporter /Programmer" />
+	<meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
+	<link rel="icon" type="image/png" href="img/wang-logo-32x32.png" sizes="32x32" />
+
+
+</head>
+<body>
+<div class="fluid-container" id="header-bar">
+	<div class="overlay orange">
+		<div id="header-name-mgtop"></div>
+		<div class="container">
+			<div id="project-name-wrap"></div>
+		</div>
+		<div id="social-btns-stickbtm">
+			<div class="container">
+				<div id="social-btns">
+					<a class="btn btn-social-icon btn-twitter" href="https://twitter.com/WangChiAn">
+						<span class="fa fa-twitter"></span>
+					</a>
+					<a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/mw10104587">
+						<span class="fa fa-facebook"></span>
+					</a>
+					<a class="btn btn-social-icon btn-github" href="https://github.com/mw10104587">
+						<span class="fa fa-github"></span>
+					</a>
+					<a class="btn btn-social-icon btn-tumblr" href="http://mileswang.tumblr.com">
+						<span class="fa fa-tumblr"></span>
+					</a>
+					<a class="btn btn-social-icon btn-instagram" href="https://instagram.com/mw10104587">
+						<span class="fa fa-instagram"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+
+	<div id="go-to-app-head" class="go-to-app"></div>
+
+	<div id="project-intro" class="prj-block"></div>
+
+	<div id="project-why-now" class="prj-block">
+
+	</div>
+
+	<div class="project-contribution prj-block">
+		<h1 class="left-orange">My Contribution</h1>
+		<div id="contributions-wrap"></div>
+	</div>
+
+	<div class="project-what-we-done prj-block">
+		<h1 class="left-orange">What We've Done</h1>
+		<div id="we-dones-wrap"></div>
+	</div>
+
+	<div id="go-to-app-tail" class="go-to-app"></div>
+	<div id="back-to-homepage"><a href="../index.html">BACK TO PORTFOLIO</a></div>
+
+
+</div>
+
+
+</body>
+</html>

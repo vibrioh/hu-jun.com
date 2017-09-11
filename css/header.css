@@ -1,0 +1,71 @@
+@font-face{
+	font-family: Bauhaus;
+	src: url("font/BAUHS93.ttf");
+}
+
+
+#header-bar{
+	/*height: 400px;*/
+	height: 27.7vw;
+	background: url("../img/home-cover-bw.jpg");
+	background-size: cover;
+}
+
+#header-name-mgtop{
+	width: 100%;
+	height: 31%;
+}
+
+#header-name-wrap{
+	display: table;
+    /*margin: auto;*/
+    /*margin-left: 17vw;*/
+    /*font-size: 11rem;*/
+    font-size: 6.5vw;
+    font-family: Bauhaus;
+
+}
+
+.overlay{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.orange{
+	background-color: rgba(255,136, 38, 0.7);
+}
+
+#social-btns{
+	/*display: table;*/
+    position: relative;
+    float: right;
+    /*right: 0px;*/
+    /*bottom: 20px;*/
+}
+
+#social-btns > a{
+	margin: 0px 5px;
+}
+
+#social-btns-stickbtm{
+	position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+
+#portfolio-intro{
+	margin-top: 30px;
+    text-align: justify;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 18px;
+
+    line-height: 32px;
+}
+
+.orange-underline{
+	border-bottom-color: rgba(255,140,0, 0.6);
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}

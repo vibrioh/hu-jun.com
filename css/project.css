@@ -1,0 +1,38 @@
+.go-to-app{
+	display: table;
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+#project-name-wrap{
+	display: table;
+    /*margin: auto;*/
+    /*margin-left: 17vw;*/
+    /*font-size: 8rem;*/
+    font-size: 6vw;
+    font-family: Bauhaus;
+
+}
+
+.para{
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 18px;
+}
+
+h1.left-orange{
+	/*border-left-color: orange;*/
+	border-left-color: rgba(255,136, 38, 1);
+    border-left-style: solid;
+    border-left-width: 8px;
+    padding-left: 6px;
+}
+
+.prj-block{
+	margin-bottom: 40px;
+}
+
+.prj-block h1{
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-weight: 800;
+}
