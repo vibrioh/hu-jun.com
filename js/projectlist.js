@@ -87,7 +87,7 @@ var ProjectCell = React.createClass({
 		// console.log(institute);
 
 		var prj_img_style = {
-			height: 160,
+			height: 360,
 			backgroundImage: "url(img/prj-cell/" + project_info["project_id"] + ".png" + ")",
 			backgroundSize: "cover",
 			backgroundPosition: "center"
@@ -120,7 +120,7 @@ var ProjectCell = React.createClass({
 		}
 
 		return (
-			<div className = "col-md-3">
+			<div className = "col-md-6">
 				<div className = "prj-frame">
 					<div className = "prj-img-wrap" style={prj_img_style}>
 
@@ -129,7 +129,7 @@ var ProjectCell = React.createClass({
 						</div>
 					</div>
 					<div className="project-name" style={proj_name_wrap_style}>
-					{project_info["project_name"].toUpperCase()}
+					{project_info["project_name"]}
 					</div>
 				</div>
 			</div>

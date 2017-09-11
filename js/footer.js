@@ -87,30 +87,30 @@ var Footer = React.createClass({
 
 		<div className="container">
 
-			<div className="col-md-7" style={footerLeftStyle}>
-				<div style={contactStyle}>Contact</div>
-				
-				<div style={contactRowStyle}>
-					<div style={iconWrapStyle}><img src="../img/footer-icon/email.png" style={footerIconStyle}/></div>
-					<FooterLink url="mailto:mw10104587@gmail.com" text="mw10104587@gmail.com" target="_top"/>
-				</div>
-				
-				<div style={contactRowStyle}>
-					<div style={iconWrapStyle}><img src="../img/footer-icon/twitter.png" style={footerIconStyle} /></div>
-					<FooterLink url="https://twitter.com/WangChiAn" text="@WangChiAn" target="_blank"/>
-				</div>
-				<div style={contactRowStyle}>
-					<div style={iconWrapStyle}><img src="../img/footer-icon/facebook.png" style={footerIconStyle} /></div>
-					<FooterLink url="https://www.facebook.com/mw10104587" text="mw10104587" target="_blank"/>
-				</div>
+			{/*<div className="col-md-7" style={footerLeftStyle}>*/}
+				{/*<div style={contactStyle}>Contact</div>*/}
 
-				<div style={copyrightStyle}>© 2015 | Chi-An Wang</div>
+				{/*<div style={contactRowStyle}>*/}
+					{/*<div style={iconWrapStyle}><img src="../img/footer-icon/email.png" style={footerIconStyle}/></div>*/}
+					{/*<FooterLink url="mailto:mw10104587@gmail.com" text="mw10104587@gmail.com" target="_top"/>*/}
+				{/*</div>*/}
 
-			</div>
+				{/*<div style={contactRowStyle}>*/}
+					{/*<div style={iconWrapStyle}><img src="../img/footer-icon/twitter.png" style={footerIconStyle} /></div>*/}
+					{/*<FooterLink url="https://twitter.com/WangChiAn" text="@WangChiAn" target="_blank"/>*/}
+				{/*</div>*/}
+				{/*<div style={contactRowStyle}>*/}
+					{/*<div style={iconWrapStyle}><img src="../img/footer-icon/facebook.png" style={footerIconStyle} /></div>*/}
+					{/*<FooterLink url="https://www.facebook.com/mw10104587" text="mw10104587" target="_blank"/>*/}
+				{/*</div>*/}
 
-			<div className="col-md-5" style={footerRightStyle}>
-				<div style={footerImgWrapStyle}><img src="../img/footer-img.png" /></div>
-			</div>
+				{/*<div style={copyrightStyle}>© 2015 | Chi-An Wang</div>*/}
+
+			{/*</div>*/}
+
+			{/*<div className="col-md-5" style={footerRightStyle}>*/}
+				{/*<div style={footerImgWrapStyle}><img src="../img/footer-img.png" /></div>*/}
+			{/*</div>*/}
 
 		</div>
 

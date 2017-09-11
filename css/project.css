@@ -10,7 +10,7 @@
     /*margin: auto;*/
     /*margin-left: 17vw;*/
     /*font-size: 8rem;*/
-    font-size: 6vw;
+    font-size: 4vw;
     font-family: Bauhaus;
 
 }
@@ -22,7 +22,7 @@
 
 h1.left-orange{
 	/*border-left-color: orange;*/
-	border-left-color: rgba(255,136, 38, 1);
+	border-left-color: #4e5b6e;
     border-left-style: solid;
     border-left-width: 8px;
     padding-left: 6px;
