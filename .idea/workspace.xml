@@ -1,72 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e833176-5c74-423c-8768-1a0b503c9291" name="Default" comment="removed head bar, adjusted font sizes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/academicons-1.8.0/fonts/academicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/academicons-1.8.0/fonts/academicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/academicons-1.8.0/fonts/academicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/default_backup/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jh.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jh32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jun.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/prj-cell/origin/prj1_nyc_rem.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/prj-cell/origin/prj2_arrh_vlz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/prj-cell/origin/prj3_seq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/prj-cell/prj1_nyc_rem.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/prj-cell/prj2_arrh_vlz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/prj-cell/prj3_seq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/timg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/junhu_resume.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/video/050516Bvt2.mpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sf-acc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/academicons-1.8.0/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/academicons-1.8.0/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/academicons-1.8.0/css/academicons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/academicons-1.8.0/css/academicons.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/academicons-1.8.0/fonts/academicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/default_backup/default.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/lead-bg-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/project.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/home-cover-bw.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/home-cover.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cell/prj_228_udn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cell/prj_bingo_cjs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cell/prj_boxioffice_udn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cell/prj_cancer_udn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cell/prj_citibike_cjs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cell/prj_county_udn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cell/prj_foreignspouse_ntu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cell/prj_linxi_udn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cell/prj_politicianfb_udn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cell/prj_randomstab_udn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cell/prj_traffic_udn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cell/螢幕快照 2015-12-12 下午3.53.29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cell/螢幕快照 2015-12-12 下午3.53.42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cell/螢幕快照 2015-12-12 下午3.55.40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cover/prj_228_udn.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cover/prj_bingo_cjs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cover/prj_boxoffice_udn.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cover/prj_cancer_udn.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cover/prj_citibike_cjs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cover/prj_county_udn.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cover/prj_linxi_udn.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cover/prj_politician_udn.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cover/prj_randomstab_udn.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cover/prj_traffic_udn-dep.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prj-cover/prj_traffic_udn.jpg" afterPath="" />
+    <list default="true" id="1e833176-5c74-423c-8768-1a0b503c9291" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/projectlist.css" afterPath="$PROJECT_DIR$/css/projectlist.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/academicons-1.8.0/bower.json" afterPath="$PROJECT_DIR$/css/academicons-1.8.0/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/portfolio-projects.csv" afterPath="$PROJECT_DIR$/data/portfolio-projects.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/projectlist.js" afterPath="$PROJECT_DIR$/js/projectlist.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/scripts.js" afterPath="$PROJECT_DIR$/js/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/scripts.min.js" afterPath="$PROJECT_DIR$/js/scripts.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.html" afterPath="$PROJECT_DIR$/project.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/styles.scss" afterPath="$PROJECT_DIR$/scss/styles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/default_backup/default.html" afterPath="$PROJECT_DIR$/default_backup/default.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -154,8 +93,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="86" column="19" lean-forward="true" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+            <state relative-caret-position="285">
+              <caret line="15" column="71" lean-forward="true" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -410,7 +349,7 @@
       <workItem from="1505069488623" duration="13460000" />
       <workItem from="1505091233365" duration="22841000" />
       <workItem from="1505152769455" duration="1852000" />
-      <workItem from="1505154686302" duration="18633000" />
+      <workItem from="1505154686302" duration="19036000" />
     </task>
     <task id="LOCAL-00001" summary="fix some parts">
       <created>1505102329132</created>
@@ -433,11 +372,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505118673555</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="version 1.0">
+      <created>1505203251795</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1505203251795</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75106000" />
+    <option name="totallyTimeSpent" value="75509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-565" width="1216" height="1896" extended-state="6" />
@@ -476,7 +422,8 @@
     <MESSAGE value="fix some parts" />
     <MESSAGE value="only need to rich data" />
     <MESSAGE value="removed head bar, adjusted font sizes" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed head bar, adjusted font sizes" />
+    <MESSAGE value="version 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -788,8 +735,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="86" column="19" lean-forward="true" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+        <state relative-caret-position="285">
+          <caret line="15" column="71" lean-forward="true" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
           <folding />
         </state>
       </provider>
