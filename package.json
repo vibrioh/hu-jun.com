@@ -14,7 +14,7 @@
     "coding",
     "dev"
   ],
-  "author": "Ryan Fitzgerald",
+  "author": "Jun Hu",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
